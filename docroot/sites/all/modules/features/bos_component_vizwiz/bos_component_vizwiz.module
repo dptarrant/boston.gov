@@ -39,7 +39,9 @@ function bos_component_vizwiz_ajax_callback(&$form, $form_state) {
       // Only iterate over integers, not other attributes.
       if (is_int($comp_key)) {
         // Get the ID for textfield (field_vizwiz_json).
-        $textfield_id = $form['field_components']['und'][$comp_key]['field_vizwiz_json']['#id'];
+        //$textfield_id = $form['field_components']['und'][$comp_key]['field_vizwiz_json']['#id'];
+        //$textfield_id = $form['field_components']['und'][$comp_key]['field_vizwiz_json']['und'][0]['#id'];
+        $textfield_id = $form['field_components']['und'][$comp_key]['field_vizwiz_json']['und'][0]['value']['#id'];
         // Set the textfield ID as the config attribute on field_vizwiz markup.
         $form['field_components']['und'][$comp_key]['field_vizwiz']['und'][0]['markup']['#markup'] = '<p><viz-wiz config="#' . $textfield_id . '"></viz-wiz></p>';
       }
