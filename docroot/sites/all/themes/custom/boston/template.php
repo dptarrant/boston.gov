@@ -723,7 +723,7 @@ function boston_preprocess_paragraphs_item_photo(&$variables) {
 
 function boston_preprocess_paragraphs_item_vizwiz(&$variables) {
   // Load VizWiz web-components JS.
-  drupal_add_js('https://patterns.boston.gov/web-components/all.js', array(
+  drupal_add_js('https://patterns.boston.gov/web-components/fleetcomponents.js', array(
     'type' => 'external',
     'scope' => 'footer',
   ));
