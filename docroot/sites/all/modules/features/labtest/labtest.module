@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the LabTest feature.
+ */
+
+include_once 'labtest.features.inc';

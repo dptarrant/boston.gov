@@ -35,3 +35,4 @@ dependencies[] = bos_component_status_override
 dependencies[] = bos_content_type_emergency_alert
 dependencies[] = bos_incapsula
 dependencies[] = bos_meta_tags
+dependencies[] = labtest
