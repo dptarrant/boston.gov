@@ -172,6 +172,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => 'upcoming_events',
         'user_action' => -1,
         'video' => 'video',
+        'vizwiz' => 'vizwiz',
       ),
       'bundle_weights' => array(
         '3_column_w_image' => -96,
@@ -356,6 +357,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => -1,
         'user_action' => -1,
         'video' => -1,
+        'vizwiz' => -1,
       ),
       'bundle_weights' => array(
         '3_column_w_image' => 2,
@@ -615,6 +617,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => 'upcoming_events',
         'user_action' => -1,
         'video' => 'video',
+        'vizwiz' => 'vizwiz',
       ),
       'bundle_weights' => array(
         '3_column_w_image' => -96,
@@ -875,6 +878,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => -1,
         'user_action' => -1,
         'video' => -1,
+        'vizwiz' => -1,
       ),
       'bundle_weights' => array(
         '3_column_w_image' => 2,
@@ -1128,6 +1132,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => 'upcoming_events',
         'user_action' => -1,
         'video' => 'video',
+        'vizwiz' => 'vizwiz',
       ),
       'bundle_weights' => array(
         '3_column_w_image' => -96,
@@ -1326,6 +1331,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => -1,
         'user_action' => -1,
         'video' => -1,
+        'vizwiz' => -1,
       ),
       'bundle_weights' => array(
         '3_column_w_image' => 2,
@@ -1556,6 +1562,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => 'upcoming_events',
         'user_action' => -1,
         'video' => 'video',
+        'vizwiz' => 'vizwiz',
       ),
       'bundle_weights' => array(
         '3_column_w_image' => -96,
@@ -1727,6 +1734,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => -1,
         'user_action' => -1,
         'video' => -1,
+        'vizwiz' => -1,
       ),
       'bundle_weights' => array(
         '3_column_w_image' => 2,
@@ -1957,6 +1965,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => 'upcoming_events',
         'user_action' => -1,
         'video' => 'video',
+        'vizwiz' => 'vizwiz',
       ),
       'bundle_weights' => array(
         '3_column_w_image' => -96,
@@ -2189,6 +2198,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => 'upcoming_events',
         'user_action' => -1,
         'video' => 'video',
+        'vizwiz' => 'vizwiz',
       ),
       'bundle_weights' => array(
         '3_column_w_image' => -96,
@@ -2433,6 +2443,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => 'upcoming_events',
         'user_action' => -1,
         'video' => 'video',
+        'vizwiz' => 'vizwiz',
       ),
       'bundle_weights' => array(
         '3_column_w_image' => -96,
@@ -2616,6 +2627,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => -1,
         'user_action' => -1,
         'video' => -1,
+        'vizwiz' => -1,
       ),
       'bundle_weights' => array(
         '3_column_w_image' => 2,
@@ -2861,6 +2873,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => 'upcoming_events',
         'user_action' => -1,
         'video' => 'video',
+        'vizwiz' => 'vizwiz',
       ),
       'bundle_weights' => array(
         '3_column_w_image' => -96,
@@ -3107,6 +3120,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => -1,
         'user_action' => -1,
         'video' => -1,
+        'vizwiz' => -1,
       ),
       'bundle_weights' => array(
         '3_column_w_image' => 2,
@@ -3343,6 +3357,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => 'upcoming_events',
         'user_action' => -1,
         'video' => 'video',
+        'vizwiz' => 'vizwiz',
       ),
       'bundle_weights' => array(
         '3_column_w_image' => -96,
@@ -3532,6 +3547,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => -1,
         'user_action' => -1,
         'video' => -1,
+        'vizwiz' => -1,
       ),
       'bundle_weights' => array(
         '3_column_w_image' => 2,
@@ -3769,6 +3785,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => 'upcoming_events',
         'user_action' => -1,
         'video' => 'video',
+        'vizwiz' => 'vizwiz',
       ),
       'bundle_weights' => array(
         '3_column_w_image' => -96,
@@ -4007,6 +4024,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => -1,
         'user_action' => -1,
         'video' => -1,
+        'vizwiz' => -1,
       ),
       'bundle_weights' => array(
         '3_column_w_image' => 2,
@@ -4189,6 +4207,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => 'upcoming_events',
         'user_action' => -1,
         'video' => 'video',
+        'vizwiz' => 'vizwiz',
       ),
       'bundle_weights' => array(
         '3_column_w_image' => 2,
@@ -4358,6 +4377,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => 'upcoming_events',
         'user_action' => -1,
         'video' => 'video',
+        'vizwiz' => 'vizwiz',
       ),
       'bundle_weights' => array(
         '3_column_w_image' => -96,
@@ -4525,6 +4545,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => -1,
         'user_action' => -1,
         'video' => -1,
+        'vizwiz' => -1,
       ),
       'bundle_weights' => array(
         '3_column_w_image' => 2,
@@ -4755,6 +4776,7 @@ function bos_field_instances_field_default_field_instances() {
         'upcoming_events' => 'upcoming_events',
         'user_action' => -1,
         'video' => 'video',
+        'vizwiz' => 'vizwiz',
       ),
       'bundle_weights' => array(
         '3_column_w_image' => -96,
