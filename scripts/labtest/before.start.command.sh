@@ -3,4 +3,4 @@
 # Runs at the end of the labtest process.
 
 cd docroot
-drush en labtest
+drush en -y labtest
