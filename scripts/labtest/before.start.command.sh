@@ -35,5 +35,6 @@ drush updb -y
 
 #-> Finally, login the admin user and provide a link back to the cli/console.
 GREEN="\033[0;32m"
-echo -e "${GREEN}Experiment login for User 1"
+NC='\033[0m' # No Color
+echo -e "${GREEN}Experiment login for User UID=1${NC}"
 drush uli
