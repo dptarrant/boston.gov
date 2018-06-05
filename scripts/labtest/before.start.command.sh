@@ -3,13 +3,18 @@
 # Runs at the end of the labtest process.
 
 cd docroot
+
 #-> Make a space separated list of modules to enable here
-MODULES="labtest"
+EN_MODULES="labtest"
+#-> Make a space separated list of modules to disable here
+DIS_MODULES="acquia_purge"
 
 drush en $MODULES -y
+
+drush dis $DIS_MODULES -y
 
 #-> Run any hook updates
 drush updb -y
 
 #-> Reset the admin password for this experiement
-drush upwd admin --password="admin" -y
+drush uli
