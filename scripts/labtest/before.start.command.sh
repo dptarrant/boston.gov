@@ -17,4 +17,5 @@ drush dis $DIS_MODULES -y
 drush updb -y
 
 #-> Reset the admin password for this experiement
+# drush upwd admin --password="admin" -y
 drush uli
