@@ -33,4 +33,5 @@ drush updb -y
 # drush upwd admin --password="admin" -y
 
 #-> Finally, login the admin user and provide a link back to the cli/console.
+echo "[\033[01;31m\]Experiment login for User 1[\033[00m\]"
 drush uli
