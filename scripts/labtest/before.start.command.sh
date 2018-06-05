@@ -1,21 +1,36 @@
 #! /bin/bash -e
 
-# Runs at the end of the labtest process.
+# Runs at the end of the labtest create/update process, before the container is started.
 
+#-> For drush commands, swicth to the docroot.
 cd docroot
 
-#-> Make a space separated list of modules to enable here
+#-> Make a space separated list of modules to enable here.
+#   NOTE: modules already enabled will remain enabled.
 EN_MODULES="labtest"
-#-> Make a space separated list of modules to disable here
+#-> Make a space separated list of modules to disable here.
+#   NOTE: modules already disabled will remain disabled.
 DIS_MODULES="acquia_purge"
 
-drush en $MODULES -y
+#-> Enable and disable required modules, aS specified above.
+if [ $EN_MODULES ]; then
+    drush en $MODULES -y
+fi
+if [ $DIS_MODULES ]; then
+    drush dis $DIS_MODULES -y
+fi
 
-drush dis $DIS_MODULES -y
-
-#-> Run any hook updates
+#-> Run any hook updates.
 drush updb -y
 
-#-> Reset the admin password for this experiement
+##################################
+# Add specific commands here
+#---------------------------------
+
+##################################
+
+#-> [Optional] reset the admin password for this experiment.
 # drush upwd admin --password="admin" -y
+
+#-> Finally, login the admin user and provide a link back to the cli/console.
 drush uli
